@@ -38,3 +38,8 @@ bool coprime(int a, int b);
 //        b > 0
 //   POST: Returns an Int > 0.
 int exponent(int a, int b);
+
+// int_abs(n) returns the absolute value of n.
+//   PRE: true
+//   POST: n>=0
+int int_abs(int n);
