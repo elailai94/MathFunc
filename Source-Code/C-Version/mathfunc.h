@@ -32,3 +32,9 @@ int maxfactor(int a);
 //        b > 0
 //   POST: Returns a Bool.
 bool coprime(int a, int b);
+
+// exponent(a, b) returns a raised to the power of b.
+//   PRE: a > 0
+//        b > 0
+//   POST: Returns an Int > 0.
+int exponent(int a, int b);
