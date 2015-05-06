@@ -3,8 +3,8 @@
 ;; ********************************************************************************************
 ;;  MathFunc
 ;;
-;;  @description: A module for providing some mathematical functions
 ;;  @author: Elisha Lai
+;;  @description: A module for providing some mathematical functions
 ;;  @version: 1.2 22/05/2014
 ;; ********************************************************************************************
 
