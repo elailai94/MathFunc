@@ -70,3 +70,8 @@ int exponent(int a, int b){
    return (b == 1)? a:
           a * exponent(a, b-1);
 }
+
+// See interface (header file).
+int int_abs(int n) {
+   return (n >= 0)? n: -n;
+}
