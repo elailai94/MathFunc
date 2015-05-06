@@ -62,3 +62,11 @@ bool coprime(int a, int b) {
    assert(b > 0);
    return (gcd(a,b) == 1);
 }
+
+// See interface (header file).
+int exponent(int a, int b){
+   assert(a > 0);
+   assert(b > 0);
+   return (b == 1)? a:
+          a * exponent(a, b-1);
+}
