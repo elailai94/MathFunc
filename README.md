@@ -1,6 +1,6 @@
 # MathFunc
 ### About
-MathFunc is a library for providing some mathematical functions.
+MathFunc is a library for providing some mathematical functions. It provides six different functions to perform mathematical operations. It is available in two different versions: one in C
 
 ### Library Import
 #### C Version
