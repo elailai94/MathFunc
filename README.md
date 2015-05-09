@@ -88,5 +88,26 @@ coprime(a, b);
 |:----------------|:--------|:--------------------------------------------------------|
 |**is coprime?**  | Bool    | None                                                    |
 
+#### An Integer Raised to the Power of Another Integer
+##### C Version
+```C
+exponent(a, b);
+```
+##### Racket Version
+```Racket
+(exponent a b)
+```
+##### Parameters
+| Parameter    | Type    | Required   | Description                               |
+|:-------------|:--------|:-----------|:------------------------------------------|
+|**a**         | Int     | Yes        | An integer of at least 1                  |
+|**b**         | Int     | Yes        | An integer of at least 1                  |
+##### Response
+| Field Name     | Type    | Description                                             |
+|:---------------|:--------|:--------------------------------------------------------|
+|**result**      | Int     | Result of at least 1                                    |
+
+#### Absolute Value of An Integer
+
 ### License
 * MathFunc is licensed under the [MIT license](https://github.com/elailai94/MathFunc/blob/master/LICENSE.md).
