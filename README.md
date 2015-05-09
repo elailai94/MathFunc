@@ -50,3 +50,31 @@ min2(a, b);
 | Field Name     | Type    | Description                 |
 |:---------------|:--------|:----------------------------|
 |**min**         | Int     | Minimum of a and b          |
+
+#### Maximum Factor of An Integer
+##### C Version
+```C
+maxfactor(a);
+```
+##### Racket Version
+```Racket
+(maxfactor a)
+```
+##### Parameters
+| Parameter    | Type    | Required   | Description                               |
+|:-------------|:--------|:-----------|:------------------------------------------|
+|**a**         | Int     | Yes        | An integer with a value of at least 2     |
+##### Response
+| Field Name     | Type    | Description                                             |
+|:---------------|:--------|:--------------------------------------------------------|
+|**max factor**  | Int     | Maximum factor of a between 0 and a exclusively         |
+
+#### Test Whether Two Integers Are Coprime
+##### C Version
+```C
+coprime(a, b);
+```
+##### Racket Version
+```Racket
+(coprime a b)
+```
