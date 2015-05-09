@@ -108,6 +108,22 @@ exponent(a, b);
 |**result**      | Int     | Result of at least 1                                    |
 
 #### Absolute Value of An Integer
+##### C Version
+```C
+int_abs(n)
+```
+##### Racket
+```Racket
+(int-abs n)
+```
+##### Parameters
+| Parameter    | Type    | Required   | Description                               |
+|:-------------|:--------|:-----------|:------------------------------------------|
+|**n**         | Int     | Yes        | None                                      |
+##### Response
+| Field Name     | Type    | Description                                             |
+|:---------------|:--------|:--------------------------------------------------------|
+|**result**      | Int     | Result of at least 0                                    |
 
 ### License
 * MathFunc is licensed under the [MIT license](https://github.com/elailai94/MathFunc/blob/master/LICENSE.md).
