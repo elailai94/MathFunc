@@ -8,7 +8,7 @@
 ;;  @version: 1.2 22/05/2014
 ;; ********************************************************************************************
 
-(provide max2 min2 maxfactor coprime)
+(provide max2 min2 maxfactor coprime exponent int-abs)
 
 ;; max2: Int Int -> Int
 ;; Conditions:
@@ -99,3 +99,14 @@
       [else (gcd n (remainder m n))]))
   (= (gcd a b) 1))
   
+;; see interface above
+(define (exponent a b)
+  (cond
+    [(= b 1) a]
+    [else (* a (exponent a (sub1 b)))]))
+
+;; see interface above
+(define (int-abs n)
+  (cond
+    [(>= n 0) n]
+    [else (- n)]))
