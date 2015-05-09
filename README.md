@@ -28,3 +28,25 @@ max2(a, b);
 |**a**         | Int     | Yes        | None                                      |
 |**b**         | Int     | Yes        | None                                      |
 ##### Response
+| Field Name     | Type    | Description                 |
+|:---------------|:--------|:----------------------------|
+|**max**         | Int     | Maximum of a and b          |
+
+#### Minimum of Two Integers
+##### C Version
+```C
+min2(a, b);
+```
+##### Racket Version
+```Racket
+(min2 a b)
+```
+##### Parameters
+| Parameter    | Type    | Required   | Description                               |
+|:-------------|:--------|:-----------|:------------------------------------------|
+|**a**         | Int     | Yes        | None                                      |
+|**b**         | Int     | Yes        | None                                      |
+##### Response
+| Field Name     | Type    | Description                 |
+|:---------------|:--------|:----------------------------|
+|**min**         | Int     | Minimum of a and b          |
