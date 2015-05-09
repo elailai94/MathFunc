@@ -87,3 +87,6 @@ coprime(a, b);
 | Field Name      | Type    | Description                                             |
 |:----------------|:--------|:--------------------------------------------------------|
 |**is coprime?**  | Bool    | None                                                    |
+
+### License
+* MathFunc is licensed under the [MIT license](https://github.com/elailai94/MathFunc/blob/master/LICENSE.md).
