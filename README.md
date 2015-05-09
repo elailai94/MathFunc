@@ -63,7 +63,7 @@ maxfactor(a);
 ##### Parameters
 | Parameter    | Type    | Required   | Description                               |
 |:-------------|:--------|:-----------|:------------------------------------------|
-|**a**         | Int     | Yes        | An integer with a value of at least 2     |
+|**a**         | Int     | Yes        | An integer of at least 2                  |
 ##### Response
 | Field Name     | Type    | Description                                             |
 |:---------------|:--------|:--------------------------------------------------------|
@@ -78,3 +78,12 @@ coprime(a, b);
 ```Racket
 (coprime a b)
 ```
+##### Parameters
+| Parameter    | Type    | Required   | Description                               |
+|:-------------|:--------|:-----------|:------------------------------------------|
+|**a**         | Int     | Yes        | An integer of at least 1                  |
+|**b**         | Int     | Yes        | An integer of at least 1                  |
+##### Response
+| Field Name      | Type    | Description                                             |
+|:----------------|:--------|:--------------------------------------------------------|
+|**is coprime?**  | Bool    | None                                                    |
