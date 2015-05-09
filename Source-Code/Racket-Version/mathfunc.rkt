@@ -39,6 +39,19 @@
 ;; Purpose: Consumes two integers, a and b. Produces #t if both the consumed integers have
 ;; the greatest common divisor of 1. Otherwise, #f is produced.
 
+;; exponent: Int Int -> Int
+;; Conditions:
+;;     PRE: a > 0
+;;          b > 0
+;;     POST: Produces an Int > 0
+;; Purpose: Consumes two integers, a and b. Produces a raised to the power of b.
+
+;; int-abs: Int -> Int
+;; Conditions:
+;;    PRE: True
+;;    POST: Produces an Int >= 0
+;; Purpose: Consumes an integer, n, and produces the absolute value of n.
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;; see interface above
